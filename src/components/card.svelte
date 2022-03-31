@@ -12,7 +12,7 @@
 
 <div class="flex h-screen">
 	<div
-		class="relative mx-auto mt-[14em] bg-secondary-gray-blue rounded-2xl text-center space-y-6 pt-12 px-8 w-[345px] max-h-[320px] desktop:px-[4rem] desktop:w-[540px] desktop:max-h-[335px]"
+		class="relative m-auto pb-16 bg-secondary-gray-blue rounded-2xl text-center space-y-6 pt-12 px-8 w-[345px] max-h-[320px] desktop:px-[4rem] desktop:w-[540px] desktop:max-h-[335px]"
 	>
 		<header>
 			<h1 class="text-primary-green font-medium text-sm desktop:font-semibold tracking-wide-xl ">
