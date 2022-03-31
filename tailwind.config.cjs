@@ -13,13 +13,26 @@ const config = {
 			desktop: '1440px',
 			'2xl': '1536px'
 		},
+		letterSpacing: {
+			wide: '0.1em',
+			wider: '0.15em',
+			widest: '0.2em',
+			'wide-xl': '0.25em'
+		},
 		extend: {
 			colors: {
-				'white-cyan': '#ffffff',
-				'primary-green': '#fb7413',
-				'gray-blue': '#4e5d73',
-				'dark-gray-blue': '#323a49',
-				'dark-blue': '#1f2632'
+				primary: {
+					cyan: '#CEE3E8',
+					green: '#53FFAB'
+				},
+				secondary: {
+					'gray-blue': '#313A49',
+					'dark-gray-blue': 'hsl(217, 19%, 24%)',
+					'dark-blue': '#1E2430'
+				}
+			},
+			boxShadow: {
+				glow: '0 0 40px #53FFAB'
 			},
 			fontFamily: { sans: ['Manrope', ...defaultTheme.fontFamily.sans] }
 		}
