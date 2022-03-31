@@ -16,7 +16,7 @@
 	>
 		<header>
 			<h1 class="text-primary-green font-medium text-sm desktop:font-semibold tracking-wide-xl ">
-				ADVICE {$advice.slip.id}
+				ADVICE #{$advice.slip.id}
 			</h1>
 		</header>
 		<main class="flex flex-col space-y-6">
